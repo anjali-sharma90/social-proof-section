@@ -1,0 +1,247 @@
+.social-proof {
+  position: relative;
+  padding: 82px 0;
+
+  //for desktop
+  @media (min-width: 1440px) {
+    width: 1440px;
+  }
+}
+
+.social-proof__topimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 374px;
+  height: 232px;
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 584px;
+    height: 362px;
+    content: url("./images/bg-pattern-top-desktop.svg");
+  }
+}
+
+.social-proof__bottomimage {
+  width: 375px;
+  height: 292px;
+  position: absolute;
+  top: 1238px;
+  right: 0;
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 127px;
+    left: 355px;
+    width: 1085px;
+    height: 673px;
+
+    content: url("./images/bg-pattern-bottom-desktop.svg");
+  }
+}
+
+.social-proof__content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 327px;
+  margin: 0 auto;
+
+  @media (min-width: 1440px) {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    gap: 71px;
+  }
+}
+
+.social-proof__header {
+  @media (min-width: 1440px) {
+    display: flex;
+    gap: 125px;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+.social-proof__text {
+  margin: 0 auto;
+
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 445px;
+  }
+
+  &__heading {
+    color: $color-primary;
+    text-align: center;
+    margin-bottom: 17px;
+
+    @media (min-width: 1440px) {
+      text-align: start;
+    }
+  }
+
+  &__p {
+    color: $color-secondary;
+    text-align: center;
+
+    @media (min-width: 1440px) {
+      text-align: start;
+    }
+  }
+}
+
+.social-proof__ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media (min-width: 1440px) {
+    width: 540px;
+  }
+}
+
+.social-proof__rating {
+  display: flex;
+  align-items: center;
+  background-color: $color-Light-Grayish-Magenta;
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 100%;
+
+  &:nth-child(2) {
+    @media (min-width: 1440px) {
+      transform: translateX(48px);
+    }
+  }
+
+  &:nth-child(3) {
+    @media (min-width: 1440px) {
+      transform: translateX(96px);
+    }
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    margin: 0 auto;
+
+    @media (min-width: 1440px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      width: 445px;
+      height: 56px;
+      margin: 0;
+      padding: 20px 32px 20px 32px;
+    }
+  }
+
+  &__star {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+
+    @media (min-width: 1440px) {
+      width: 116px;
+    }
+  }
+
+  &__text {
+    width: 100%;
+    color: $color-primary;
+    text-align: center;
+  }
+
+  @media (min-width: 1440px) {
+    width: 445px;
+    margin: 0;
+  }
+}
+
+.social-proof__review {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+
+  &__box {
+    background-color: $color-primary;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 32px;
+
+    &:nth-child(2) {
+      @media (min-width: 1440px) {
+        transform: translateY(16px);
+      }
+    }
+
+    &:nth-child(3) {
+      @media (min-width: 1440px) {
+        transform: translateY(32px);
+      }
+    }
+  }
+
+  &__profile {
+    display: flex;
+    gap: 23px;
+  }
+
+  &__pic {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+  &__data {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__name {
+    color: $color-tertiary;
+    text-align: left;
+  }
+
+  &__id {
+    color: $color-soft-pink;
+  }
+
+  &__comments {
+    color: $color-tertiary;
+    text-align: left;
+
+    width: 100%;
+  }
+
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
+.attribution {
+  width: 100%;
+}

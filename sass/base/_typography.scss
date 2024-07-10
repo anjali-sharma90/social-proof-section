@@ -1,0 +1,47 @@
+.h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "League Spartan", sans-serif;
+  letter-spacing: -1.43px;
+  line-height: 32px;
+
+  @media (min-width: 1440px) {
+    font-size: 56px;
+    font-weight: bold;
+    font-family: "League Spartan", sans-serif;
+    letter-spacing: -2px;
+    line-height: 48px;
+  }
+}
+
+.text1 {
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  letter-spacing: -0.63px;
+  line-height: 25px;
+}
+
+.text2 {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "League Spartan", sans-serif;
+  letter-spacing: 0;
+  line-height: auto;
+}
+
+.text3 {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  letter-spacing: 0;
+  line-height: auto;
+}
+
+.text4 {
+  font-size: 17px;
+  font-weight: medium;
+  font-family: "League Spartan", sans-serif;
+  letter-spacing: -0.3px;
+  line-height: 22px;
+}
