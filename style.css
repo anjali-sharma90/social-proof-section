@@ -196,8 +196,10 @@ select {
   line-height: 22px; }
 
 .social-proof {
+  width: 375px;
   position: relative;
-  padding: 82px 0; }
+  padding: 82px 0;
+  margin: 0 auto; }
   @media (min-width: 1440px) {
     .social-proof {
       width: 1440px; } }
@@ -221,7 +223,7 @@ select {
   width: 375px;
   height: 292px;
   position: absolute;
-  top: 1238px;
+  top: 875px;
   right: 0; }
   @media (min-width: 1440px) {
     .social-proof__bottomimage {
@@ -289,7 +291,8 @@ select {
   background-color: #f7f2f7;
   margin: 0 auto;
   border-radius: 8px;
-  width: 100%; }
+  width: 100%;
+  height: 78px; }
   @media (min-width: 1440px) {
     .social-proof__rating:nth-child(2) {
       transform: translateX(48px); } }
